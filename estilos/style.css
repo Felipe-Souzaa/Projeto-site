@@ -3,8 +3,17 @@
     font-size: 16px;
 }
 
+p.sub-titulo{
+    font-size: 18px;
+}
+
+p.titulo{
+    font-size: 20px;
+}
+
 body{
     background-color: rgb(99, 46, 168);
+    color: blueviolet;
 }
 
 main{
@@ -13,4 +22,23 @@ main{
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.486);
+}
+
+img.lado{
+    float: right;
+    
+}
+
+p{
+    text-align: justify;
+    font-weight: bold;
+}
+
+a.link{
+    text-decoration: none;
+    color: blueviolet;
+}
+a.hover{
+    text-decoration: underline;
+    color: blueviolet;
 }
